@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: RandomWords());
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false, home: RandomWords());
   }
 }
